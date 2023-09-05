@@ -1,0 +1,50 @@
+                    <!-- This is a Rock paper scissors game in JS -->
+                    <!DOCTYPE html>
+                    <html lang="en">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Rock Paper Scissor</title>
+                        <link rel="stylesheet" href="Style.css">
+                    </head>
+                    <body>
+                        <p class="title">Rock Paper Scissors</p>
+                        
+                        
+                        <!-- This is ROCK BUTTON -->
+                        <button onclick="
+                    
+                    const computermove= pickComputerMove();
+                    let result='';
+                        playGame('rock');" class="move-button" ><img src="Images/rock-emoji.png" alt="Rock" class="move-icon"></button>
+                        
+                        <!-- This is Paper Button -->
+                        <button onclick="
+                    playGame('paper'); " class="move-button"><img src="Images/paper-emoji.png"  alt="Paper" class="move-icon"></button>
+                        
+                        
+                    <!-- This is Scissors Button -->
+                    
+                    <button onclick="
+                    playGame('scissors')" class="move-button"><img src="Images/scissors-emoji.png" alt="Scissors" class="move-icon"></button>
+                    
+                    <p class="js-result css-result"></p>
+                    <p class="js-moves"></p>
+
+                    <p class="js-score css-score"></p>
+
+                    <button onclick="
+                    score.wins=0;
+                    score.losses=0;
+                    score.ties=0;
+                    localStorage.removeItem('score');
+                    updateScoreElements();
+                
+                    " class="reset-score-button">Reset Score</button>
+                    
+                    <script src="RPS.js"> 
+
+                           
+                        </script>
+                    </body>
+                    </html>
