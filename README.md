@@ -2,7 +2,7 @@
 
 Welcome to the Rock, Paper, Scissors game! This simple web-based game is implemented using HTML, CSS, and JavaScript. Test your luck and strategy against the computer in this classic hand game.
 
-![Rock, Paper, Scissors](Images/game-screenshot.png)
+![Game looks like this :](https://github.com/ShivamGupta-yo/Rock-Paper-Scissors/blob/main/Images/game-screenshot.png)
 
 ## Table of Contents
 
@@ -30,9 +30,9 @@ Playing Rock, Paper, Scissors is easy:
 
 1. Click on one of the three hand symbols (Rock, Paper, or Scissors) to make your choice.
    
-   ![Rock-button](Images/rock-emoji.png)
-   ![Paper-button](Images/Paper-emoji.png)
-   ![Scissors-button](Images/Scissors-emoji.png)
+   ![Rock-button](https://github.com/ShivamGupta-yo/Rock-Paper-Scissors/blob/main/Images/rock-emoji.png)
+   ![Paper-button](https://github.com/ShivamGupta-yo/Rock-Paper-Scissors/blob/main/Images/paper-emoji.png)
+   ![Scissors-button](https://github.com/ShivamGupta-yo/Rock-Paper-Scissors/blob/main/Images/scissors-emoji.png)
 
 2. The computer will randomly select its choice.
 
