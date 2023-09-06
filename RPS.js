@@ -105,3 +105,20 @@ computermove='scissors';
 
 return computermove;
 }  
+
+
+let isAutoPlay=false;
+let intervalId;
+function autoPlay(){
+
+    if(!isAutoPlay){
+       intervalId= setInterval(function(){
+        const playerMove = pickComputerMove();
+        playGame(playerMove);
+
+    },1000);
+    isAutoPlay = true;
+}else{
+clearInterval(intervalId);
+isAutoPlay=false;
+}}
