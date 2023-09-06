@@ -1,6 +1,6 @@
 # Rock, Paper, Scissors Game
 
-Welcome to the Rock, Paper, Scissors game! This simple web-based game is implemented using HTML, CSS, and JavaScript. Test your luck and strategy against the computer in this classic hand game.
+Hello, Welcome to the Rock, Paper, Scissors game! This simple web-based game is implemented using HTML, CSS, and JavaScript. Test your luck and strategy against the computer in this classic hand game.
 
 ![Game looks like this :](https://github.com/ShivamGupta-yo/Rock-Paper-Scissors/blob/main/Images/game-screenshot.png)
 
